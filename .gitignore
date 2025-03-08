@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit specific
+.streamlit/
+
+# Data files
+*.json
+*.xlsx
+*.db
+*.sqlite3
+
+# Logs and debug files
+logs/
+*.log
+
+# MacOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# IDE specific files
+.idea/
+*.iml
+
+# Python dependencies
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Docker files
+docker-compose.override.yml
+
+# Node.js dependencies (if any frontend exists)
+node_modules/
+*.lock
