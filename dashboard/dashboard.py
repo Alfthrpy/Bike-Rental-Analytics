@@ -144,7 +144,6 @@ with tab1:
     #START
     df_hour_filter = df_hour[df_hour['dteday'] == min_date]
 
-    # Create figure and plot
     plt.figure(figsize=(12, 6))
     sns.lineplot(x='hr', y='cnt', data=df_hour_filter, marker='o', linewidth=2)
     plt.xlabel('Hour (0-23)', fontsize=12, color=text_color)
@@ -154,7 +153,6 @@ with tab1:
     plt.tick_params(axis='y',colors=text_color)
     plt.grid(False)
 
-    # Display plot in Streamlit with the title
     st.pyplot(plt, transparent=True)
     st.caption(f'Hourly Bike Rental Patterns for the Day ({start_date})')
     #END
