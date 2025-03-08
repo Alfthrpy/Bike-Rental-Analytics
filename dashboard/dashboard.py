@@ -195,7 +195,7 @@ with tab1:
 
     fig, ax = plt.subplots(figsize=(12, 6))
 
-    sns.barplot(x='hr', y='cnt', data=hourly_rentals, palette='Blues_d', ax=ax)
+    sns.barplot(x='hr', y='cnt', data=hourly_rentals, palette=colors, ax=ax)
 
     sns.lineplot(x='hr', y='cnt', data=hourly_rentals, color='#1F4E79', marker='o', linewidth=2, ax=ax)
 
