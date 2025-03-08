@@ -7,8 +7,8 @@ import numpy as np
 
 
 ##LOAD DATA
-df_day = pd.read_csv('dashboard\day_clean.csv')
-df_hour = pd.read_csv('dashboard\hour_clean.csv')
+df_day = pd.read_csv('dashboard/day_clean.csv')
+df_hour = pd.read_csv('dashboard/hour_clean.csv')
 
 
 
